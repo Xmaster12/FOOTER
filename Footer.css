@@ -1,0 +1,291 @@
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-------Footer------*/
+
+
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position:relative;
+    margin: 0;
+    bottom:0;
+    width:100%;
+    height: 300px;
+    background-color: #293B2E;
+    font-family: Verdana;
+    color: white;
+
+}
+
+
+
+.Kilde{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #293B2E;
+    width: 20%;
+    height: 100%;
+
+}
+
+
+
+.left-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: top;
+    width: 100%;
+    height: 30%;
+}
+
+
+.left-top .text{
+    position: relative;
+    font-family: "PT Sans";
+    cursor: pointer;
+    color: white;
+    margin: 30px;
+
+}
+
+.left-top a{
+    text-decoration: none;
+}
+
+.left-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: bottom;
+    width: 100%;
+    height: 70%;
+}
+
+
+.left-center a{
+    position: relative;
+    padding: 0px 8px 0px 8px;
+    font-size: 16px;
+    color: #f2f2f2;
+}
+
+.left-center a:hover{
+    opacity: 0.8;
+    transition: 0.25s;
+}
+
+
+.LogoPlacement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Logo2{
+
+    height: 50%;
+    width: 50%;
+
+}
+
+
+
+/*--- box 2---*/
+
+.support{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #293B2E;
+    width: 40%;
+    height: 100%;
+}
+
+.support2{
+    position: relative;
+    width: 18%;
+}
+
+.support2 h4{
+    margin: 40px 0px 0px 0px;
+    height: 15%;
+
+}
+
+.support2 a {
+    height: 10%;
+    color: #877356;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.support2 a:hover {
+    opacity: 0.5;
+
+}
+
+.support3{
+    position: relative;
+    width: 25%;
+}
+
+.support3 h4{
+    margin: 40px 0px 0px 0px;
+    height: 15%;
+
+}
+
+.support3 a {
+    height: 10%;
+    color: #877356;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.support3 a:hover {
+    opacity: 0.5;
+
+}
+
+/*----Climax--*/
+
+
+
+.Climax{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+    background-color: #293B2E;
+    width: 40%;
+    height: 100%;
+}
+
+.support4{
+    position: relative;
+    width: 30%;
+}
+
+.support4 h4{
+    margin: 40px 0px 0px 0px;
+    height: 15%;
+
+}
+
+.support4 a {
+    height: 10%;
+    color: #877356;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.support4 a:hover {
+    opacity: 0.5;
+
+}
+
+.support5{
+
+    position: relative;
+    width: 40%;
+}
+
+.support5 h4{
+    margin: 50px 0px 0px 0px;
+    height: 15%;
+
+}
+
+.support5 a {
+    height: 10%;
+    color: #877356;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+.support5 a:hover {
+    opacity: 0.5;
+
+}
+
+.Copy{
+
+    background-color: #293B2E;
+    width: 100%;
+
+}
+
+.Copy p{
+    color: #BFBFBF;
+    text-align: center;
+    font-size: 11px;
+}
+
+
+
+/*---Responsiv--*/
+
+@media (max-width: 750px) {
+
+    .Kilde{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #293B2E;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+
+    .support{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: #293B2E;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .Climax{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .support2{
+        position: relative;
+        width: 35%;
+    }
+
+    .support3{
+        position: relative;
+        width: 35%;
+    }
+
+
+}
