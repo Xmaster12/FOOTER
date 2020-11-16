@@ -91,13 +91,13 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+ width: 100%;
 }
 
 .Logo2{
 
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 40%;
 
 }
 
